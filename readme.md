@@ -7,6 +7,7 @@ Downloader API to interfejs, który ułatwia pracę innych programistów. Dzięk
 - [Wymagania](#wymagania)
 - [Funkcje](#funkcje)
 - [Changelog](#changelog)
+- [Autor](#autor)
 
 
 ## WYMAGANIA
@@ -27,3 +28,5 @@ Downloader API to interfejs, który ułatwia pracę innych programistów. Dzięk
 ## BETA
 - 13.03.2022 - <span style="color:red">FATALNY BŁĄD API (trzeba przepisaćk kod)</span>
 
+## Autor
+- [@BartoszLemieszko](https://www.github.com/thebartle)
