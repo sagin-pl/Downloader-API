@@ -2,7 +2,7 @@
 [![Release](https://img.shields.io/github/v/release/sagin-pl/downloader-api)](https://github.com/sagin-pl/Downloader-API/releases)
 [![Project](https://img.shields.io/badge/project-SAGIN--PL-green)](https://github.com/sagin-pl)
 
-Downloader API to interfejs, który ułatwia pracę innych programistów. Dzięki API unikamy wielu powtórzeń w kodzie na każdą platformę. Downloader pozwala na pobiranie filmów i zdjęć z popularnych platform takich jak Instagram, TikTok, Youtube.
+Downloader API to interfejs, który ułatwia pracę innych programistów. Dzięki API unikamy wielu powtórzeń w kodzie na każdą platformę. Downloader pozwala na pobiranie filmów i zdjęć z popularnych platform takich jak Instagram, TikTok, Youtube. Framework, który został użyty to FastAPI.
 
 ## SPIS TREŚCI
 - [Wymagania](#wymagania)
