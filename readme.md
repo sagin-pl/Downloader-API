@@ -32,4 +32,4 @@ Downloader API to interfejs, który ułatwia pracę innych programistów. Dzięk
 
 
 ### RELEASE
-- Przepisanie oraz naprwawienie kodu. API działa. Odejście z koncepcji zabezpieczania API.
+- 29.03.2022 Przepisanie oraz naprwawienie kodu. API działa. Odejście z koncepcji zabezpieczania API.
