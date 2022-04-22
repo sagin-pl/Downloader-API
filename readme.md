@@ -28,7 +28,7 @@ Downloader API to interfejs, który ułatwia pracę innych programistów. Dzięk
 - 03.02.2022 - API sprawdza czy “hash” się zgadza z hasłem
 
 ### BETA
-- 13.03.2022 - <span style="color:red">FATALNY BŁĄD API (trzeba przepisaćk kod)</span>
+- 13.03.2022 - <span style="color:red">FATALNY BŁĄD API (trzeba przepisać kod)</span>
 
 
 ### RELEASE
