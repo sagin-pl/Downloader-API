@@ -8,6 +8,7 @@ Downloader API to interfejs, który ułatwia pracę innych programistów. Dzięk
 - [Wymagania](#wymagania)
 - [Funkcje](#funkcje)
 - [Użycie](#użycie)
+- [Limity](#Limity)
 - [Changelog](#changelog)
 
 
@@ -95,6 +96,11 @@ Przykładowa odpowiedź jaką otrzymamy po zakończeniu pobierania filmu na serw
 Po otrzymaniu finalnej odpowiedzi z URL'em do pobrania filmu z serwera, możemy go zapisać.
 \*Nigdy nie zobaczymy procentów w wartości 100, ponieważ przy spełnieniu warunki (if procenty == 100) zamienia się na URL.
 
+
+## Limity:
+- [https://api.sagin.pl/szurag](api.sagin.pl/szurag) i [https://api.sagin.pl/szuragV2](api.sagin.pl/szuragV2) mają limity 5 zapytań na minutę.
+
+- [https://api.sagin.pl/track/<uuid>](api.sagin.pl/track/<uuid>) maksymalnie 4 zapytania na sekundę
 
 
 # Changelog
