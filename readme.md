@@ -34,7 +34,8 @@ Po wykonaniu requesta metodą POST otrzymujemy odpowiedź JSON
 ```json
 {
   "url": "https://api.sagin.pl/track/5fe15dc6-bc0b-4334-8af3-09ef69903d2e"
-}```
+}
+```
 
 Do otrzymanego linku wykonujemy zapytanie GET na adres URL otrzymany z poprzedniego requesta.
 Przykładowa odpowiedź jaką otrzymamy po zakończeniu pobierania filmu na serwer:
@@ -42,14 +43,15 @@ Przykładowa odpowiedź jaką otrzymamy po zakończeniu pobierania filmu na serw
 ```json
 {
   "5fe15dc6-bc0b-4334-8af3-09ef69903d2e": "https://files.sagin.pl/7089476830431841538.mp4",
-}```
+}
+```
 
 **Jeżeli film pobiera się dłużej to wtedy otrzymamy wersję z procentami w liczbie całkowitej (INT): **
 ```json
 {
   "5fe15dc6-bc0b-4334-8af3-09ef69903d2e": 40
 }
-
+```
 Po otrzymaniu finalnej odpowiedzi z URL'em do pobrania filmu z serwera, możemy go zapisać.
 \*Nigdy nie zobaczymy procentów w wartości 100, ponieważ przy spełnieniu warunki (if procenty == 100) zamienia się na URL.
 
